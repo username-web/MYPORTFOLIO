@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+        function sendEmail() {
+            var your_name = document.getElementById("your_name").value;
+            var your_email = document.getElementById("your_email").value;
+            var subject = document.getElementById("subject").value;
+            var description = document.getElementById("description").value;
+
+            Email.send({
+                SecureToken : "fdf2d17c-b33e-484d-86e9-1d92f2786a1e",
+                To: "yr257034@gmail.com",
+                From: "yr257034@gmail.com",
+                Subject: subject,
+                Body: 'Name: ' + your_name +'  E-Mail:  '+your_email + '<br>Message: ' + description,
+                }).then(
+                    message => alert(message),
+                );
+        }
+    </script>
+</head>
+
+
+
+    <section >
+        <div id="head" class="list">
+            <div id="portfolio">Portfolio</div>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        <div class="list">
+            <a href="#home" class="active">HOME</a>
+            <a href="#skills" >SKILLS</a>
+            <a href="#certifications">CERTIFICATIONS</a>
+            <a href="#contact">CONTACT</a></div>
+        </div>
+
+        
+    </section>
+            <section id="profile-page">
+                <section class="home" id="home">
+                    <div class="home-content">
+                        <pre>
+
+                        </pre>
+                        <h3>Hello, It's Me Yaswanth Sura </h3>
+                        <h3>And I'm a <span>Frontend Developer</span></h3>
+                        <p>Welcome to my design portfolio, a curated collection of my creative journey and expertise. In this digital showcase, you'll find a range of design things that reflect my passion for visual world.</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://api.whatsapp.com/send/?phone=8897882334&text&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp' ></i></a>
+                        <a href="#contact"><i class='bx bxl-gmail' ></i></a>
+                        <a href="https://www.linkedin.com/in/yaswanth-sura/"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                    <div class="btn">
+                        <a href="Yaswanth's Resume1p.pdf" download>Download CV</a>
+                    </div>
+                </section>
+                <div class="home-img">
+                    <video width="400px" controls autoplay loop
+                    src="yash10.mp4" type="video/mp4 "></video>
+                </div>
+            </section>
+        </section>
+                        
+        <!--    <section id="profile-page">
+                <div class="skills" id="skills">
+                    <div>
+                        java
+                    </div>
+                    <div>
+                        java
+                    </div>
+                    <div>
+                        java
+                    </div>
+                    <div>
+                        java
+                    </div>
+                    <div>
+                        java
+                    </div>
+                    <div>
+                        java
+                    </div>5
+                    <div>
+                        java
+                    </div>
+
+                </div>
+            </section>-->
+           <!-- <div class="grid-container">
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">3</div>  
+                <div class="grid-item">4</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">6</div>  
+                <div class="grid-item">7</div>
+                <div class="grid-item">8</div>
+                <div class="grid-item">9</div>  
+</div>-->
+    <section class="services" id="skills" class="Skills" >
+        <pre>
+            
+
+
+        </pre>
+        <h2>SKILLS</h2>
+        <pre>
+        </pre>
+        <div class="service-container">
+            <div class="serv-box">
+                <i class='bx bxl-java' ></i>
+                <h3>JAVA</h3>
+
+            </div>
+            <div class="serv-box">
+                <i class='bx bxl-python' ></i>
+                <h3>PYTHON</h3>
+
+            </div>
+            <div class="serv-box">
+                <i class='bx bxs-data' ></i>
+                <h3>SQL</h3>
+
+            </div>
+            <div class="serv-box">
+                <i class='bx bxl-html5' ></i>
+                <h3>HTML</h3>
+
+            </div>
+            <div class="serv-box">
+                <i class='bx bxl-css3' ></i>
+                <h3>CSS</h3>
+
+            </div>
+            <div class="serv-box">
+                <i class='bx bxl-javascript' ></i>
+                <h3>jAVA SCRIPT</h3>
+   
+            </div>
+            <div class="serv-box">
+                <i class='bx bxl-bootstrap'></i>
+                <h3>BOOTSTRAP</h3>
+   
+            </div>
+            <div class="serv-box">
+                <i class='bx bxl-mongodb' ></i>
+                <h3>MONGODB</h3>
+   
+            </div>
+            <div class="serv-box">
+                <i class='bx bxl-spring-boot' ></i>
+                <h3>SPRING BOOT</h3>
+
+            </div>
+    </section>
+
+    <section class="certifications" id="certifications">
+        <pre>
+        </pre>
+        <h2>CERTIFICATIONS</h2>
+        <div class="cert-container">
+            <div class="cert-box">
+            <img src="azur.jpg" alt="">
+            </div>
+            <div class="cert-box" id="tap">
+                <img src="tap_cer.jpg">
+            </div>
+            <div class="cert-box">
+                <img src="ibmm.jpg" alt="">
+            </div>
+            <div class="cert-box">
+                <img src="aws.jpg" alt="">
+                </div>
+        </div>
+    </section>
+<section id="contact" class="contact">
+    <h1>Contact Details</h1>
+    <form method="post" class="inp">
+        <div class="flexing">
+        <div class="in-box">
+            <input type="text" id="your_name" placeholder="your name" name="your_name" required>
+            <input type="email" id="your_email" placeholder="your E-mail" name="your_email" required>
+        </div>
+        <div class="in-box">
+            <input type="number" id="your_Phone Number" placeholder="your Phone Number" name="your_Phone Number" required>
+            <input type="text" id="subject" placeholder="Subject" name="subject" required>
+        </div>
+    </div>
+        <textarea rows="10" cols="40" id="description" placeholder="Description" name="description" required></textarea>
+
+        <div>
+            <input type="button" id="submit" value="Send Mail" onclick="sendEmail()" />
+        </div>
+    </form>
+</section>
+
+<footer class="foot">
+    <div class="foot-text">
+        <p>Copyright &copy; 2023 by Yaswanth | All Rights Reserved</p>
+    </div>
+    <div class="foot-iconTop">
+        <a href="#home"><i class='bx bxs-up-arrow-alt' ></i></a>
+    </div>
+</footer>
+</body>
+</html>
